@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap');
+
+:root { --bg: #F7F5F0; --ink: #0B1E3D; --ink-muted: #5B6572; --thread: #B8860B; --danger: #B3413B; --warning: #C98A2A; --resolved: #1F7A5C; --card-bg: #FFFFFF; --border: #E4E0D6; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: 'Inter', sans-serif; font-size: 15px; line-height: 1.6; margin: 0; -webkit-font-smoothing: antialiased; }
+button, input { font: inherit; } button { cursor: pointer; } h1, h2 { font-family: 'Fraunces', Georgia, serif; font-weight: 500; } code, time, .mono { font-family: 'IBM Plex Mono', monospace; font-variant-numeric: tabular-nums; }
